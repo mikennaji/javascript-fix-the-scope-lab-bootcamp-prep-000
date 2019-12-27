@@ -20,15 +20,10 @@ function add2(n) {
 
 }
 
-var funkyFunction = function() {
-  var innerVariable = "FUNKY!"
-  return function() {
-    return innerVariable
-  }
-}
+
 
 var funkyFunction =function outerFunction() {
-  var innerVariable = "FUNKY!";
+   return "FUNKY!";
 
   return function innerScope() {
      return innerVariable;
