@@ -23,7 +23,7 @@ function add2(n) {
 
 
 var funkyFunction =function outerFunction() {
-   return "FUNKY!";
+  var innerVariable = "FUNKY!";
 
   return function innerScope() {
      return innerVariable;
