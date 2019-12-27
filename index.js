@@ -29,7 +29,7 @@ var funkyFunction = function() {
 
 var funkyFunction =function outerFunction() {
   var innerVariable = "FUNKY!";
- 
+
   return function innerScope() {
      return innerVariable;
   }
